@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #11c76f;
+  }
+  #body,
+  h1 {
+    text-decoration: underline;
+    font-size: medium;
+    line-height: 40px;
+  }
+  #body,
+  p {
+    text-align: center;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nome-legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 240px;
+    height: 520px;
+    border: 2px solid #426dff;
+    border-radius: 40px;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  .pindamanhangaba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    font-size: small;
+  }
+  
+  .bloquinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    color: #fff;
+    height: 80px;
+    border: 1px solid #426dff;
+    border-radius: 10px;
+    background-color: #426dff;
+    margin: 10px;
+    font-family: monospace;
+    font-size: small;
+  }
+  #bloquinho,
+  p {
+    font-size: smaller;
+  }
+  
+  .botão {
+    width: 100px;
+    height: 35px;
+    background-color: #11c76f;
+    border: 0;
+    border-radius: 30px;
+    font-size: 10px;
+  }
+  
+  .div {
+    border-radius: 10px;
+    border: 2px style solid;
+    background-color: #eff0ef;
+  }
+  
+  .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+  }
